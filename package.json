@@ -3,6 +3,11 @@
   "description": "Cross-Platform port of Firetext",
   "version": "0.0.1",
   "license": "MIT",
+  "author": { 
+    "name": "Codexa", 
+    "email": "example@example.com", 
+    "url": "https://github.com/codexa" 
+  }, 
   "repository": {
     "type": "git",
     "url": "https://github.com/codexa/firetext"
@@ -50,10 +55,6 @@
       "cp"
     ]
   },
-  "pre-commit": [
-    "lint",
-    "unit"
-  ],
   "keywords": [
     "electron-app",
     "electron"
@@ -93,6 +94,7 @@
     "eslint-config-idiomatic": "^2.1.0",
     "pre-commit": "^1.1",
     "shelljs": "^0.7",
-    "standard": "^7"
+    "standard": "^7",
+    "lodash": "^4"
   }
 }
