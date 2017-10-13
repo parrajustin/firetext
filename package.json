@@ -1,18 +1,13 @@
 {
-  "name": "Traffic_Light_System",
-  "description": "UTEP Class Project",
+  "name": "Firetext",
+  "description": "Cross-Platform port of Firetext",
   "version": "0.0.1",
-  "author": {
-    "name": "Justin Parra",
-    "email": "jrparra2@miners.utep.edu",
-    "url": "https://utep.edu"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qpt4000/Electron-Veq"
+    "url": "https://github.com/codexa/firetext"
   },
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
     "depcheck": "dependency-check app --entry main.js --unused --no-dev",
     "lint": "standard",

@@ -1,0 +1,19 @@
+{
+  "name": "Firetext",
+  "productName": "Firetext",
+  "description": "Cross-Platform port of Firetext",
+  "version": "0.0.1",
+  "homepage": "https://github.com/codexa/firetext",
+  "main": "main.js",
+  "electronVersion": "1.0.0",
+  "dependencies": {
+    "electron-debug": "^1",
+    "devtron": "^1.1"
+  },
+  "config": {
+    "url": "index.html",
+    "update": {
+      "url": false
+    }
+  }
+}
